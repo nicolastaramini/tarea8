@@ -36,29 +36,35 @@
         <form class="formulario" action="#" method="GET" >
          <label class=visually-hidden></label >
     
-          <input type="text" placeholder="NOMBRE" id="usu"required>
+          <input class="form-control form-control-sm" 
+          type="text" placeholder="Nombre" id="usu"required
+          style="width: 350px;height: 50px">
            <br>
      
-           <label class=visually-hidden class="formulario" for="apellido">APELLIDO:</label>
-             <input type="text" placeholder="APELLIDO" id="apellodo"required>
+           <label class=visually-hidden class="formulario" for="apellido">Apellodo:</label>
+             <input class="form-control form-control-sm"
+             type="text" placeholder="Apellido" id="apellodo"required
+             style="width: 350px;height: 50px">
               <br>
      
               <div class="form-floating mb-3">
                 <input type="email" class="form-control" 
                 id="floatingInput;"
-                id="floatingInputInvalid"
                 style="width: 350px;height: 50px"> 
                 <label for="floatingInput">Email</label>
                </div>
               
       
-          <label class=visually-hidden class="formulario"for="telefono">TELEFONO:</label>
-          <input type="tel"placeholder="TELEFONO" id="TELEFONO"required>
+          <label class=visually-hidden class="formulario"for="telefono">Telefono:</label>
+          <input class="form-control form-control-sm"
+          type="tel"placeholder="Telefono" id="Telefono"required
+          style="width: 350px;height: 50px">
             <br>
-            TIPO DE CONSULTA
+            Tipo de consulta
             <br>
-          <input type="radio"name="tipo de consulta"value="personas"> Personal
-          <input type="radio"name="tipo de consulta"value="empresas">Empresa
+          
+              <input class="form-check-input" type="radio"name="tipo de consulta"value="personas"> Personal
+              <input class="form-check-input"type="radio"name="tipo de consulta"value="empresas">Empresa
            <br>
          
           <div class="form-floating">
